@@ -1,0 +1,151 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1380px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    width: auto;
+    min-height: 70px;
+    line-height: 70px;
+}
+
+#header {
+    border-bottom: medium solid #39A631;
+}
+
+span.title_con {
+    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;
+    font-style: normal;
+    font-size: 2em;
+    font-weight: 800;
+    color: #39A631;
+    padding-left: 1em;
+}
+
+#content {
+    width: 50em;
+    height: 28em;
+    text-align: center;
+    background-image: url(/images/xgxt_login_bg.jpg);
+    background-size: 100% 100%;
+}
+
+#footer {
+    width: auto;
+    min-height: 60px;
+    line-height: 60px;
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer {
+    border-top: thin solid #39A631;
+}
+
+#Pagebody {
+    height: 30em;
+    margin-bottom: 5px;
+}
+
+.foot {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    bottom: 0;
+    width: 100%;
+    height: 3.5em;
+
+}
+
+.con {
+    width: auto;
+    height: 30em;
+    margin-top: 0em;
+}
+
+.con {
+    border: thin solid #8EC172;
+}
+
+.con_title {
+    background-color: #8EC172;
+    width: auto;
+    height: 3.5em;
+    line-height: 3.5em;
+    text-align: center;
+    border-top: thin solid #39A631;
+}
+
+.pic1 {
+    width: 50em;
+    height: 30em;
+    float: left;
+}
+
+.tab1 {
+    float: left;
+    clear: right;
+    width: 30em;
+    height: 29em;
+    text-align: center
+}
+
+.con_title_sp {
+    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.con_input {
+    margin: 2em 0 1em 0;
+}
+
+.submit-btn {
+    width: 8em;
+    height: 2em;
+    background-color: #62ab00;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.con_input span {
+    font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+}
+
+.con_input input {
+    width: 15em;
+    padding: 0.5em 1em;
+    border: 1px solid #bbb;
+}
+
+.submit-btn {
+    margin: 1em 0 1em 0;
+}
+
+.con_select {
+    margin-left: 1em;
+    font-family: Georgia, "Times New Roman",
+    "Microsoft YaHei", "微软雅黑",
+    STXihei, "华文细黑",
+    serif;
+    font-size: 1em;
+    color: #333;
+}

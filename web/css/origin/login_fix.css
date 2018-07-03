@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS reset */
+* {
+    font-family: "microsoft yahei", simsun, Tahoma, sans-serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+    font-size: 100%;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+i, cite, em, var, dfn, address {
+    font-style: normal;
+}
+
+body {
+    font-size: 14px;
+}
+
+a {
+    color: #313131;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active, a:focus {
+    outline: none
+}
+
+a[href^="http://tongji.baidu.com"] {
+    display: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+.clearfix {
+    zoom: 1;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+.hidden, .none {
+    display: none;
+}
+
+/*.w1060{ width:1060px; height:auto; margin:0 auto;}*/
+/*
+.padding_nei{
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.main01 .sousuo div{
+	-webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius:17px;
+    -o-border-radius:17px;
+	border-radius:17px;
+	}
+*/
+.w1100 {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.w1096 {
+    width: 1096px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*注册页面*/
+.login_bj {
+    background: url(../images/xgxt_login_bg2.jpg) no-repeat top center;
+}
+
+.zhuce_body {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.zhuce_body .logo {
+    width: 114px;
+    height: 54px;
+    margin: 53px 0 0 65px;
+}
+
+.zhuce_body .zhuce_kong {
+    position: absolute;
+    background: #FFF;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 478px;
+    margin-left: -250px;
+    margin-top: -239px;
+    text-align: center;
+}
+
+.zhuce_body .zhuce_kong h3 {
+    font: 16px/70px Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;;
+    color: #333333;
+    width: auto;
+    text-align: center;
+}
+
+.zhuce_kong > p {
+    font: 16px/70px Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif;;
+    text-align: center;
+    color: #fff;
+}
+
+.zhuce_body .zhuce_kong .kuang_txt {
+    width: 236px;
+    height: 32px;
+    border: 1px solid #dddddd;
+    line-height: 32px;
+    padding-left: 32px;
+    color: #b1a9a9;
+    margin-bottom: 10px;
+}
+
+.zhuce_body .zhuce_kong .btn_zhuce {
+    width: 270px;
+    height: 33px;
+    background: #37b5f9;
+    font-size: 14px;
+    line-height: 33px;
+    text-align: center;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.zhuce_body .zhuce_kong .phone {
+    background: url(../images/zc_06.jpg) no-repeat 10px 10px;
+}
+
+.zhuce_body .zhuce_kong .email {
+    background: url(../images/zc_12.jpg) no-repeat 10px 10px;
+}
+
+.zhuce_body .zhuce_kong .possword {
+    background: url(../images/zc_16.jpg) no-repeat 10px 10px;
+}
+
+.zhuce_body .zhuce_kong .yanzm {
+    background: url(../images/zc_19.jpg) no-repeat 10px 10px;
+    margin-bottom: 0;
+}
+
+.zhuce_body .zhuce_kong .hui_kuang {
+    float: left;
+    width: 97px;
+    height: 31px;
+    border: 1px solid #dddddd;
+    margin-left: 45px
+}
+
+.zhuce_body .zhuce_kong .shuaxin {
+    float: left;
+    margin: 10px 0 0 150px;
+    width: 14px;
+    height: 14px;
+}
+
+.zhuce_body .zhuce_kong . div {
+    float: left;
+    width: 100%;
+    line-height: 43px;
+}
+
+.div1 {
+    width: 100%;
+    line-height: 43px;
+    clear: both
+}
+
+.zhuce_body .zhuce_kong . div input {
+    float: left;
+    margin-top: 15px;
+}
+
+.zhuce_body .zhuce_kong . div span {
+    padding-left: 5px;
+}
+
+.zhuce_body .zhuce_kong . div .lan {
+    color: #19aaf8;
+    padding-left: 0;
+}
